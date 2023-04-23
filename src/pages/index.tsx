@@ -12,7 +12,7 @@ export default function Home() {
       </header>
 
       <main>
-        <h1 className="text-4xl">Test</h1>
+        <h1 className="text-4xl">The ultimate teams app</h1>
       </main>
     </>
   )
