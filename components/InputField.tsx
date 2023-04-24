@@ -6,14 +6,15 @@ interface Props {
     size?: number;
     checked?: boolean;
     value?: string;
+    className: string;
 
 }
 
 function InputField(props: Props) {
-    const { name, placeholder, type, size, checked, value } = props;
+    const { name, placeholder, type, size, checked,className, value } = props;
     return (
         <>
-            <input name={name} placeholder={placeholder} type={type} size={size} checked={checked} value={value} />
+            <input name={name} className={className} placeholder={placeholder} type={type} size={size} checked={checked} value={value} />
         </>
     )
 }

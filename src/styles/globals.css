@@ -52,8 +52,8 @@ body {
 .sd-header {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
-   padding: 15px 15px 5px 15px;
+  justify-content: space-between;
+  padding: 15px 15px 5px 15px;
 }
 
 button.close_button {
@@ -112,4 +112,37 @@ a {
 img {
   width: 100%;
   height: auto;
+}
+table {
+  width: 100%;
+
+  font-family: inherit;
+}
+
+td,
+th {
+  border: 1px solid #eee;
+  padding: 8px;
+}
+
+th {
+  padding: 1rem;
+  text-align: left;
+  font-family: inherit;
+  font-weight: 500;
+  /* background-color: #eee; */
+}
+.input {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  outline: 0;
+  border-radius: 4px;
+  font-family: inherit;
+}
+::placeholder {
+  font-family: inherit;
+  font-weight: 500;
+  color: #eee;
 }
